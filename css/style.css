@@ -1,0 +1,15 @@
+* {
+  font-family: 'Raleway', helvetica;
+  margin: 0;
+  padding: 0;
+}
+
+#container{
+  margin: 0;
+  padding: 0
+}
+
+.typer {
+  font-size: 48px;
+  font-weight: 600;
+}
