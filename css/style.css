@@ -24,12 +24,11 @@ h1, h2, h3, h4, h5, h6 {
 
 		#topSection .socialIcons {
 			display: inline-block;
-			float: right;
 		}
 
 			.socialIcons i {
 				font-size: 24pt;
-				margin-left: 10px;
+				margin-left: 5px;
 				line-height: 50px;
 				height: 50px;
 			}
@@ -45,3 +44,11 @@ h1, h2, h3, h4, h5, h6 {
 	#expSkills .exp-card img {
 		margin: 20px auto;
 	}
+
+#footer {
+	padding : 20px 0;
+	background-color: #ecf0f1;
+	color: #34495e;
+	text-align: center;
+	margin-top: 20px;
+}
