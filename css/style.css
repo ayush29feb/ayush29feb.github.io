@@ -1,5 +1,5 @@
 body {
-	font-family: 'Raleway';
+	font-family: 'Courier New';
 	margin: 0;
 }
 
@@ -13,9 +13,9 @@ h1, h2, h3, h4, h5, h6 {
 	color: #34495e;
 }
 
-	#topSection .container {
-		max-width: 960px;
-	}
+.container {
+	max-width: 960px;
+}
 		#topSection h1 {
 			display: inline-block;
 			line-height: 50px;
@@ -33,3 +33,15 @@ h1, h2, h3, h4, h5, h6 {
 				line-height: 50px;
 				height: 50px;
 			}
+
+#expSkills {
+	padding-top: 30px;
+}
+	
+	#expSkills .exp-card {
+		margin : 10px 0;
+	}
+
+	#expSkills .exp-card img {
+		margin: 20px auto;
+	}
