@@ -1,12 +1,17 @@
 body {
 	font-family: 'Roboto', sans-serif;
-	font-size: 12px;
+	font-size: 13px;
 	color: #5D5D5D;
 }
 
+a {
+	color: #3d3d3d;
+}
+
 #wrapper {
-	margin : 15% auto 5% 10%;
-	width: 60%;
+	margin : 15% auto;
+	margin-bottom: 0;
+	max-width: 960px;
 	padding-left: 5%;
 }
 
@@ -22,14 +27,16 @@ body {
 
 	#header i {
 		font-size: 2.5em;
-		margin-right: 0.1em;
+		margin-right: 0.15em;
 		margin-top: 0;
+		margin-bottom: 0.5em;
 		padding: 0;
 	}
 
 	#header p {
-		width: 80%;
-		font-size: 1em;
+		width: 65%;
+		font-size: 1.2em;
+		margin : 0.2em 0;
 	}
 
 .work {
@@ -43,9 +50,20 @@ body {
 		padding-left: 0px;
 		margin: 0.5em 0;
 		list-style-type: none;
-		width: 80%;
+		width: 65%;
+	}
+
+	.item p {
+		margin: 0.5em 0;
+		width: 65%;
 	}
 
 	.item li {
 		padding: 0.2em 0;
 	}
+
+#footer {
+	margin: 3em 0 0 0;
+	padding: 1em;
+
+}
