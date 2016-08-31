@@ -9,6 +9,10 @@ a {
 	text-decoration: none;
 }
 
+h3 a, li a {
+	text-decoration: underline;
+}
+
 #wrapper {
 	margin : 15% auto;
 	margin-bottom: 0;
